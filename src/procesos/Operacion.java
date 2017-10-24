@@ -1,14 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package procesos;
+
+import modelo.Credencial;
 
 /**
  *
- * @author Estudiantes
+ * @author Charles Hurtado, Edwin Hastamorir
  */
 public interface Operacion {
-    
+    /**
+     * 
+     * @param credencial
+     * @return 
+     */
+    public boolean aprobarTransaccion(Credencial credencial);
+    /**
+     * 
+     * @return 
+     */
+    public boolean ejecutar();
+    /**
+     * 
+     * @return 
+     */
+    public int getId();
+    /**
+     * 
+     * @return 
+     */
+    public String getNombre();
 }

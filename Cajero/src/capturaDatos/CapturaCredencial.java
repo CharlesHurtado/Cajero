@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package capturaDatos;
+
+import modelo.Credencial;
 
 /**
  *
- * @author Estudiantes
+ * @author Charles Hurtado, Edwin Hastamorir
  */
 public class CapturaCredencial {
-    
+    public static void recibirTarjeta(String idTarjeta, String clavePrivada){
+        
+    }
+    public static void recibirUsuario(Credencial credencial, int claveUsuario){
+        
+    }
+
 }

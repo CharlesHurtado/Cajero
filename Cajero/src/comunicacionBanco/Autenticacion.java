@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package comunicacionBanco;
+
+import modelo.Credencial;
 
 /**
  *
- * @author Estudiantes
+ * @author Charles Hurtado, Edwin Hastamorir
  */
 public class Autenticacion {
+    public static boolean validarTarjeta(Credencial credencial){
+        return false;
+    }
     
+    public static boolean validarUsuario(Credencial credencial){
+        return false;
+    }
 }
